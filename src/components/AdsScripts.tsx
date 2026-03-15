@@ -2,18 +2,18 @@
 
 import Script from "next/script";
 
-// Pastikan ada kata 'export' sebelum 'function'
+// PERHATIKAN: Kata 'export' di bawah ini adalah kunci agar error kamu hilang!
 export function AdsScripts() {
   return (
     <>
-      {/* Popunder Adsterra */}
+      {/* Popunder Adsterra - Mesin Uang 1 */}
       <Script
         id="adsterra-popunder"
         strategy="afterInteractive"
         src="//www.effectivegatecpm.com/71/85/3c/71853c0721759550275816912304859a.js"
       />
 
-      {/* Social Bar / Floating Ad */}
+      {/* Social Bar / Floating Ad - Mesin Uang 2 */}
       <Script
         id="adsterra-social-bar"
         strategy="lazyOnload"
