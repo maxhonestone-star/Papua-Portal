@@ -1,29 +1,13 @@
-// Adstera Scripts
+import React from 'react';
 
-// Popunder Script
-(function() {
-    var popunder = document.createElement('script');
-    popunder.src = 'https://example.com/popunder.js';
-    document.body.appendChild(popunder);
-})();
+const AdsScripts = () => {
+    return (
+        <>
+            <script src="https://pl28920194.effectivegatecpm.com/23/77/09/23770909aaf7a0011f76b3f64b09553f.js"></script>
+            <script src="https://pl28920196.effectivegatecpm.com/e4/fd/33/e4fd335d2067dc079c885568b282ca0c.js"></script>
+            <script src="https://pl28920201.effectivegatecpm.com/2ccd4bd103e10a34cd07774571d5fb20/invoke.js"></script>
+        </>
+    );
+};
 
-// Social Bar Script
-(function() {
-    var socialBar = document.createElement('script');
-    socialBar.src = 'https://example.com/social-bar.js';
-    document.body.appendChild(socialBar);
-})();
-
-// Smart Link Script
-(function() {
-    var smartLink = document.createElement('script');
-    smartLink.src = 'https://example.com/smart-link.js';
-    document.body.appendChild(smartLink);
-})();
-
-// Native Async Script
-(function() {
-    var nativeAsync = document.createElement('script');
-    nativeAsync.src = 'https://example.com/native-async.js';
-    document.body.appendChild(nativeAsync);
-})();
+export default AdsScripts;
