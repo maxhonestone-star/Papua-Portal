@@ -1,0 +1,36 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0F172A" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Papua map silhouette outline -->
+  <path d="M 60 80 L 75 75 L 85 85 L 90 80 L 95 85 L 100 82 L 105 80 L 110 85 L 115 82 L 120 88 L 125 85 L 130 90 L 128 100 L 125 105 L 120 110 L 115 108 L 110 112 L 105 110 L 100 115 L 95 112 L 90 115 L 85 110 L 80 105 L 75 100 L 70 95 L 65 90 Z" 
+        fill="#06B6D4" opacity="0.8"/>
+  
+  <!-- Eagle silhouette inside map -->
+  <g transform="translate(100, 95)">
+    <!-- Eagle head -->
+    <circle cx="0" cy="-8" r="6" fill="#10B981"/>
+    <!-- Eagle beak -->
+    <path d="M 5 -8 L 12 -8 L 10 -6 Z" fill="#FBBF24"/>
+    <!-- Eagle body -->
+    <ellipse cx="0" cy="0" rx="7" ry="10" fill="#10B981"/>
+    <!-- Left wing -->
+    <path d="M -6 -2 Q -20 -5 -18 5" stroke="#10B981" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Right wing -->
+    <path d="M 6 -2 Q 20 -5 18 5" stroke="#10B981" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Tail -->
+    <path d="M 0 8 L 0 18" stroke="#10B981" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative stars (Papua theme) -->
+  <circle cx="130" cy="70" r="2" fill="#3B82F6"/>
+  <circle cx="150" cy="85" r="2" fill="#3B82F6"/>
+  <circle cx="70" cy="65" r="1.5" fill="#3B82F6"/>
+  <circle cx="50" cy="100" r="1.5" fill="#3B82F6"/>
+  
+  <!-- Text "PP" for Papua Portal -->
+  <text x="100" y="155" font-size="16" font-weight="bold" text-anchor="middle" fill="#3B82F6" font-family="Arial, sans-serif">PP</text>
+  
+  <!-- Glow effect -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.3"/>
+</svg>
