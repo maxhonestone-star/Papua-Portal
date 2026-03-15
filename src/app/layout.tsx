@@ -12,13 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Papua Portal - Super App Papua",
-  description: "Portal Super App Papua: Link Deep, Harga Sembako, Lowongan Kerja, Cek Bansos, dan Konseling AI untuk seluruh masyarakat Papua.",
-  keywords: "papua, portal, link, sembako, loker, bansos, konseling, jayapura, sorong, papua barat",
-  openGraph: {
-    title: "Papua Portal - Super App Papua",
-    description: "5-in-1 Super App untuk masyarakat Papua",
-    locale: "id_ID",
-  },
+  description: "Portal Super App Papua: Link Deep, Harga Sembako, Lowongan Kerja, Cek Bansos, dan Konseling AI.",
 };
 
 export default function RootLayout({
@@ -31,13 +25,12 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
-        {/* 1. Adstera Popunder */}
+        {/* Iklan Langsung Di Sini (Tanpa Import AdsScripts yang bikin eror) */}
         <Script 
           id="adsterra-popunder"
           src="https://pl28920194.effectivegatecpm.com/23/77/09/23770909aaf7a0011f76b3f64b09553f.js" 
           strategy="afterInteractive" 
         />
-        {/* 2. Adstera Social Bar */}
         <Script 
           id="adsterra-social-bar"
           src="https://pl28920196.effectivegatecpm.com/e4/fd/33/e4fd335d2067dc079c885568b282ca0c.js" 
@@ -46,24 +39,14 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} antialiased font-inter`}>
         <LanguageProvider>
-          {/* Tombol Floating untuk Smart Link */}
-          <div className="fixed bottom-24 right-5 z-50">
-             <a href={smartLink} target="_blank" rel="noopener noreferrer" className="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-full font-bold shadow-lg animate-bounce text-sm">
-                🔥 Info Penting Papua
-             </a>
-          </div>
-
           {children}
-          
           <AIChat />
         </LanguageProvider>
         
-        {/* 3. Adstera Native Async Container (Iklan Banner) */}
+        {/* Banner Iklan Bawah */}
         <div className="flex justify-center my-4">
           <div id="container-2ccd4bd103e10a34cd07774571d5fb20"></div>
         </div>
-        
-        {/* 4. Adstera Native Async Script */}
         <Script 
           id="adsterra-native"
           src="https://pl28920201.effectivegatecpm.com/2ccd4bd103e10a34cd07774571d5fb20/invoke.js"
