@@ -2,22 +2,20 @@
 
 import Script from "next/script";
 
-// PERHATIKAN: Kata 'export' di bawah ini adalah kunci agar error kamu hilang!
 export function AdsScripts() {
   return (
     <>
-      {/* Popunder Adsterra - Mesin Uang 1 */}
-      <Script
+      {/* Popunder */}
+      <Script 
         id="adsterra-popunder"
-        strategy="afterInteractive"
-        src="//www.effectivegatecpm.com/71/85/3c/71853c0721759550275816912304859a.js"
+        src="https://pl28920194.effectivegatecpm.com/23/77/09/23770909aaf7a0011f76b3f64b09553f.js" 
+        strategy="afterInteractive" 
       />
-
-      {/* Social Bar / Floating Ad - Mesin Uang 2 */}
-      <Script
+      {/* Social Bar */}
+      <Script 
         id="adsterra-social-bar"
-        strategy="lazyOnload"
-        src="//pl25836814.highrevenuegate.com/3c/71/85/3c71853c0721759550275816912304859a.js"
+        src="https://pl28920196.effectivegatecpm.com/e4/fd/33/e4fd335d2067dc079c885568b282ca0c.js" 
+        strategy="lazyOnload" 
       />
     </>
   );
