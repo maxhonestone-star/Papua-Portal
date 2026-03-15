@@ -20,12 +20,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const smartLink = "https://www.effectivegatecpm.com/tvqnevd65z?key=ab0f8aae20f425b8cb36f7e7a88fe5b7";
-
   return (
     <html lang="id">
       <head>
-        {/* Iklan Langsung Di Sini (Tanpa Import AdsScripts yang bikin eror) */}
+        {/* Iklan Adsterra Langsung Di Sini - Jauh Lebih Aman */}
         <Script 
           id="adsterra-popunder"
           src="https://pl28920194.effectivegatecpm.com/23/77/09/23770909aaf7a0011f76b3f64b09553f.js" 
